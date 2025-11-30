@@ -1,0 +1,38 @@
+\documentclass[12pt,a4paper,]{article}
+\usepackage[a4paper, left=3.17cm, right=3.17cm, top=2.54cm, bottom=2.54cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{chemformula}
+\usepackage{cite}
+\usepackage{appendix}
+\usepackage[colorlinks, linkcolor=black, anchorcolor=black, citecolor=black]{hyperref}
+\usepackage{graphicx}
+\usepackage{orcidlink}
+\setlength{\parskip}{0.5em}
+\title{Place Your Project Title at Here}
+\author{\textup{Your Name}}
+\newcommand{\authorID}[1]{\def\theauthorID{#1}}
+\authorID{\textup{Your Student ID}}
+\begin{document}
+    \input{title/title.tex}
+    \tableofcontents
+    \newpage
+
+    \section{Abstract}
+
+    \section{Introduction}
+
+    \section{Body Content}
+
+    \section{Results and Discussion}
+    \cite{farokhzad2009impact} test citation.
+    
+    \section{Conclusion}
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{ref}
+
+\end{document}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.4)  26 SEP 2024 20:57
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.13)  30 NOV 2025 14:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -633,9 +633,9 @@ Package: pythonhighlight 2017/02/09 python code highlighting; provided by Olivie
 
 Package xcolor Warning: Package option `hyperref' is obsolete and ignored on input line 9.
 
-) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
- (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+) (c:/texlive/2024/texmf-dist/tex/latex/orcidlink/orcidlink.sty
+Package: orcidlink 2023/12/30 v1.0.5 Linked ORCiD logo macro package
+ (c:/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks37
 \pgfutil@tempdima=\dimen263
 \pgfutil@tempdimb=\dimen264
@@ -782,29 +782,85 @@ Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepend=\dimen301
 ) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
+)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen302
+\pgffor@skip=\dimen303
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count377
+\pgfplotmarksize=\dimen304
+)
+\tikz@lastx=\dimen305
+\tikz@lasty=\dimen306
+\tikz@lastxsaved=\dimen307
+\tikz@lastysaved=\dimen308
+\tikz@lastmovetox=\dimen309
+\tikz@lastmovetoy=\dimen310
+\tikzleveldistance=\dimen311
+\tikzsiblingdistance=\dimen312
+\tikz@figbox=\box67
+\tikz@figbox@bg=\box68
+\tikz@tempbox=\box69
+\tikz@tempbox@bg=\box70
+\tikztreelevel=\count378
+\tikznumberofchildren=\count379
+\tikznumberofcurrentchild=\count380
+\tikz@fig@count=\count381
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count382
+\pgfmatrixcurrentcolumn=\count383
+\pgf@matrix@numberofcolumns=\count384
+)
+\tikz@expandcount=\count385
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysvg.path.code.tex
+File: tikzlibrarysvg.path.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibrarysvg.path.code.tex
+File: pgflibrarysvg.path.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleparser.code.tex
+File: pgfmoduleparser.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfparserdef@arg@count=\count386
+)
+\pgf@lib@svg@last@x=\dimen313
+\pgf@lib@svg@last@y=\dimen314
+\pgf@lib@svg@last@c@x=\dimen315
+\pgf@lib@svg@last@c@y=\dimen316
+\pgf@lib@svg@count=\count387
+\pgf@lib@svg@max@num=\count388
+))
+\@curXheight=\skip87
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+ (c:/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks47
-\verbatim@line=\toks48
+\every@verbatim=\toks49
+\verbatim@line=\toks50
 \verbatim@in@stream=\read3
 ) (c:/texlive/2024/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
  (c:/texlive/2024/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box67
-\tcb@upperbox=\box68
-\tcb@lowerbox=\box69
-\tcb@phantombox=\box70
-\c@tcbbreakpart=\count377
-\c@tcblayer=\count378
-\c@tcolorbox@number=\count379
-\l__tcobox_tmpa_box=\box71
-\l__tcobox_tmpa_dim=\dimen302
-\tcb@temp=\box72
-\tcb@temp=\box73
-\tcb@temp=\box74
-\tcb@temp=\box75
+\tcb@titlebox=\box71
+\tcb@upperbox=\box72
+\tcb@lowerbox=\box73
+\tcb@phantombox=\box74
+\c@tcbbreakpart=\count389
+\c@tcblayer=\count390
+\c@tcolorbox@number=\count391
+\l__tcobox_tmpa_box=\box75
+\l__tcobox_tmpa_dim=\dimen317
+\tcb@temp=\box76
+\tcb@temp=\box77
+\tcb@temp=\box78
+\tcb@temp=\box79
 ) (c:/texlive/2024/texmf-dist/tex/latex/fontawesome/fontawesome.sty
 Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
  (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifxetex.sty
@@ -839,23 +895,23 @@ Package fontspec Info: Font family 'FontAwesome(0)' created for font
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen303
-\captionmargin=\dimen304
-\caption@leftmargin=\dimen305
-\caption@rightmargin=\dimen306
-\caption@width=\dimen307
-\caption@indent=\dimen308
-\caption@parindent=\dimen309
-\caption@hangindent=\dimen310
+\caption@tempdima=\dimen318
+\captionmargin=\dimen319
+\caption@leftmargin=\dimen320
+\caption@rightmargin=\dimen321
+\caption@width=\dimen322
+\caption@indent=\dimen323
+\caption@parindent=\dimen324
+\caption@hangindent=\dimen325
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count380
-\c@continuedfloat=\count381
+\c@caption@flags=\count392
+\c@continuedfloat=\count393
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: subfigure package is loaded.
 )
-\c@Theorem=\count382
+\c@Theorem=\count394
 )
 
 Package xcolor Warning: Package option `hyperref' is obsolete and ignored on input line 7.
@@ -984,7 +1040,7 @@ Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
 File: fc-english.def 2016/01/12
 )
-\c@lstlisting=\count383
+\c@lstlisting=\count395
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 File: figures/cityu.pdf Graphic file (type pdf)
@@ -1062,7 +1118,7 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
 \openout5 = `main.toc'.
 
  [3] [4]
-\c@mass-energy equivalence=\count384
+\c@mass-energy equivalence=\count396
 File: figures/FDS logo.jpg Graphic file (type bmp)
 <figures/FDS logo.jpg>
 
@@ -1109,16 +1165,22 @@ L3 programming layer <2022/08/05>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EEC6AEF0AA3632E07BF5D1BC01F2E36E;905.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 2776EE4046E7496A92917CE861931BD8;915
+(rerunfilecheck)             After:  EEC6AEF0AA3632E07BF5D1BC01F2E36E;905.
  ) 
 Here is how much of TeX's memory you used:
- 32703 strings out of 474773
- 675646 string characters out of 5761290
+ 35589 strings out of 474773
+ 746910 string characters out of 5761289
  1989842 words of memory out of 5000000
- 54249 multiletter control sequences out of 15000+600000
+ 57087 multiletter control sequences out of 15000+600000
  576896 words of font info for 159 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,12n,131p,1216b,1422s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 118i,12n,131p,1216b,1422s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.pdf (7 pages).
