@@ -1,0 +1,115 @@
+\newcommand{\zhchapnum}[1]{%
+  \ifcase#1\or 一\or 二\or 三\or 四\or 五\or 六\or 七\or 八\or 九\or 十\or 十一\or 十二\or 十三\or 十四\or 十五\or 十六\or 十七\or 十八\or 十九\or 二十\else #1\fi}
+
+% ---------- Thesis metadata ----------
+\newcommand{\thesisprogramzh}{計算機科學學士學位課程}
+\newcommand{\thesisprogramen}{Bachelor of Computer Science}
+\newcommand{\thesistypezh}{本科生畢業論文}
+\newcommand{\thesistitlezh}{中文論文題目}
+\newcommand{\thesissubtitlezh}{副題（如有）}
+\newcommand{\thesistitleen}{English Thesis Title}
+\newcommand{\thesisshorttitle}{題目}
+\newcommand{\studentname}{學生姓名}
+\newcommand{\studentnumber}{ID}
+\newcommand{\facultyname}{數據科學學院}
+\newcommand{\supervisorname}{導師姓名}
+\newcommand{\studentemail}{student.number@cityu.edu.mo}
+\newcommand{\submissiondate}{年\quad 月\quad 日}
+
+% ---------- Headings ----------
+\renewcommand{\thechapter}{\zhchapnum{\value{chapter}}}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}}
+
+\titleformat{\chapter}[block]
+  {\normalfont\centering\fontsize{18pt}{27pt}\selectfont}
+  {第\thechapter 章}
+  {1em}
+  {}
+\titleformat{name=\chapter,numberless}[block]
+  {\normalfont\centering\fontsize{18pt}{27pt}\selectfont}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\chapter}{0pt}{0.8cm}{1.5cm}
+
+\titleformat{\section}
+  {\normalfont\fontsize{14pt}{21pt}\selectfont}
+  {\thesection}
+  {1em}
+  {}
+\titlespacing*{\section}{0pt}{1.0em}{0.6em}
+
+\titleformat{\subsection}
+  {\normalfont\fontsize{13pt}{19.5pt}\selectfont}
+  {\thesubsection}
+  {1em}
+  {}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.5em}
+
+% ---------- Numbering ----------
+\numberwithin{equation}{chapter}
+\renewcommand{\thefigure}{\arabic{chapter}-\arabic{figure}}
+\renewcommand{\thetable}{\arabic{chapter}-\arabic{table}}
+\renewcommand{\theequation}{\arabic{chapter}-\arabic{equation}}
+\renewcommand{\figurename}{圖}
+\renewcommand{\tablename}{表}
+\renewcommand{\bibname}{參考文獻}
+\captionsetup{
+  font=normalsize,
+  labelfont=normalfont,
+  labelsep=space,
+  justification=centering
+}
+
+% ---------- Contents formatting ----------
+\renewcommand{\contentsname}{目錄}
+\renewcommand{\listfigurename}{圖目錄}
+\renewcommand{\listtablename}{表目錄}
+\renewcommand{\cftchappresnum}{第}
+\renewcommand{\cftchapaftersnum}{章\quad}
+\setlength{\cftchapnumwidth}{5.5em}
+\setlength{\cftsecnumwidth}{3em}
+\setlength{\cftsubsecnumwidth}{4em}
+\renewcommand{\cftfigpresnum}{圖~}
+\renewcommand{\cfttabpresnum}{表~}
+\setlength{\cftfignumwidth}{5.5em}
+\setlength{\cfttabnumwidth}{5.5em}
+\renewcommand{\cfttoctitlefont}{\hfill\normalfont\fontsize{18pt}{27pt}\selectfont}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand{\cftloftitlefont}{\hfill\normalfont\fontsize{18pt}{27pt}\selectfont}
+\renewcommand{\cftafterloftitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\normalfont\fontsize{18pt}{27pt}\selectfont}
+\renewcommand{\cftafterlottitle}{\hfill}
+\renewcommand{\cftchapfont}{\normalfont}
+\renewcommand{\cftchappagefont}{\normalfont}
+
+% ---------- Cross-reference names ----------
+\crefname{figure}{圖}{圖}
+\Crefname{figure}{圖}{圖}
+\crefname{table}{表}{表}
+\Crefname{table}{表}{表}
+\crefname{equation}{式}{式}
+\Crefname{equation}{式}{式}
+
+% ---------- Page style ----------
+\newcommand{\zhleftheader}{澳門城市大學本科生畢業論文}
+\fancypagestyle{cityu}{
+  \fancyhf{}
+  \fancyhead[L]{\small \zhleftheader}
+  \fancyhead[R]{\small \thesisshorttitle}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyhead[L]{\small \zhleftheader}
+  \fancyhead[R]{\small \thesisshorttitle}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\pagestyle{cityu}

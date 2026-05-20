@@ -1,0 +1,136 @@
+% City University of Macau Chinese thesis template
+% Compile with: xelatex main -> bibtex main -> xelatex main -> xelatex main
+\documentclass[12pt,a4paper,oneside]{report}
+
+% ---------- Page setup ----------
+\usepackage[
+  a4paper,
+  top=2.8cm,
+  bottom=2.5cm,
+  left=3.0cm,
+  right=2.5cm,
+  headheight=15pt,
+  headsep=0.8cm,
+  footskip=1.1cm
+]{geometry}
+
+% ---------- Fonts and language ----------
+\usepackage[fontset=none,scheme=plain]{ctex}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Termes}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{Latin Modern Mono}
+\setCJKmainfont{bsmi00lp}[
+  Path=FONTS/,
+  UprightFont=bsmi00lp.ttf,
+  BoldFont=bsmi00lp.ttf,
+  AutoFakeBold=2.5,
+  ItalicFont=bkai00mp.ttf
+]
+\setCJKsansfont{bsmi00lp}[
+  Path=FONTS/,
+  UprightFont=bsmi00lp.ttf,
+  BoldFont=bsmi00lp.ttf,
+  AutoFakeBold=2.5
+]
+\setCJKmonofont{bsmi00lp}[
+  Path=FONTS/,
+  UprightFont=bsmi00lp.ttf,
+  BoldFont=bsmi00lp.ttf,
+  AutoFakeBold=2.5
+]
+\usepackage[english]{babel}
+
+% ---------- Core packages ----------
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage[warnings-off={mathtools-colon,mathtools-overbracket}]{unicode-math}
+\setmathfont{TeX Gyre Termes Math}
+\setmathfont{TeX Gyre Termes Math}[version=bold]
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{threeparttable}
+\usepackage[table]{xcolor}
+\usepackage{longtable}
+\usepackage{siunitx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{caption}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{mathrsfs}
+\usepackage{pdfpages}
+\usepackage{listings}
+\usepackage{acro}
+\usepackage{csquotes}
+\usepackage{xurl}
+\usepackage[numbers,sort&compress]{natbib}
+
+% ---------- Text layout ----------
+\onehalfspacing
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+\raggedbottom
+\setlist{nosep}
+\sisetup{detect-all}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  columns=fullflexible,
+  frame=single,
+  numbers=left,
+  numberstyle=\tiny,
+  tabsize=2
+}
+
+% ---------- Hyperlinks ----------
+\usepackage[bookmarks=false,hidelinks]{hyperref}
+\usepackage[capitalize,noabbrev]{cleveref}
+
+\begin{document}
+
+\input{Sections/setup.tex}
+
+\hypersetup{pageanchor=false}
+\pagenumbering{gobble}
+\input{Sections/cover.tex}
+\input{Sections/approval.tex}
+
+\clearpage
+\hypersetup{pageanchor=true}
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\input{Sections/declaration.tex}
+\input{Sections/acknowledgements.tex}
+\input{Sections/abstract.tex}
+\input{Sections/contents.tex}
+
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\input{Sections/chapter01_introduction.tex}
+\input{Sections/chapter02_framework.tex}
+\input{Sections/chapter03_algorithm_implementation.tex}
+\input{Sections/chapter04_innovative_method_1.tex}
+\input{Sections/chapter05_innovative_method_2.tex}
+\input{Sections/chapter06_experiments.tex}
+\input{Sections/chapter07_summary.tex}
+
+\input{Sections/references.tex}
+\input{Sections/resume.tex}
+\input{Sections/appendix.tex}
+
+\end{document}

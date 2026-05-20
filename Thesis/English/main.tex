@@ -1,0 +1,212 @@
+% City University of Macau FDS BCS Bachelor's Thesis LaTeX template
+% Unofficial LaTeX adaptation based on official Faculty of Data Science guidelines.
+% Official guideline page: https://fds.cityu.edu.mo/upcoming_events/552
+% Supporting English page: https://fds.cityu.edu.mo/en/upcoming_events/309
+% Compile with: pdflatex main -> bibtex main -> pdflatex main -> pdflatex main
+
+\pdfminorversion=7
+
+\documentclass[12pt,a4paper,oneside]{report}
+
+% ---------- Thesis metadata ----------
+\newcommand{\thesisprogram}{Bachelor of Computer Science}
+\newcommand{\thesistype}{Bachelor's Thesis}
+\newcommand{\thesistitle}{English Thesis Title}
+\newcommand{\thesissubtitle}{Subtitle if applicable}
+\newcommand{\thesisshorttitle}{Thesis Title}
+\newcommand{\studentname}{Student Name}
+\newcommand{\studentnumber}{Student Number}
+\newcommand{\facultyname}{Faculty Placeholder}
+\newcommand{\supervisorname}{Supervisor Name}
+\newcommand{\studentemail}{student.number@cityu.edu.mo}
+\newcommand{\submissiondate}{Month Day, Year}
+
+% ---------- Page setup ----------
+\usepackage[
+  a4paper,
+  top=2.8cm,
+  bottom=2.5cm,
+  left=3.0cm,
+  right=2.5cm,
+  headheight=15pt,
+  headsep=0.8cm,
+  footskip=1.1cm
+]{geometry}
+
+% ---------- Fonts and language ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext}
+\usepackage[english]{babel}
+
+% ---------- Core packages ----------
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage[amssymbols]{newtxmath}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{threeparttable}
+\usepackage[table]{xcolor}
+\usepackage{longtable}
+\usepackage{siunitx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{caption}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{mathrsfs}
+\usepackage{pdfpages}
+\usepackage{listings}
+\usepackage{acro}
+\usepackage{csquotes}
+\usepackage{xurl}
+\usepackage[numbers,sort&compress]{natbib}
+
+% ---------- Text layout ----------
+\onehalfspacing
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+\raggedbottom
+\setlist{nosep}
+\sisetup{detect-all}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  columns=fullflexible,
+  frame=single,
+  numbers=left,
+  numberstyle=\tiny,
+  tabsize=2
+}
+
+% ---------- Headings ----------
+\titleformat{\chapter}[block]
+  {\normalfont\bfseries\centering\fontsize{18pt}{27pt}\selectfont}
+  {Chapter \thechapter}
+  {1em}
+  {}
+\titlespacing*{\chapter}{0pt}{0.8cm}{1.5cm}
+
+\titleformat{\section}
+  {\normalfont\bfseries\fontsize{14pt}{21pt}\selectfont}
+  {\thesection}
+  {1em}
+  {}
+\titlespacing*{\section}{0pt}{1.0em}{0.6em}
+
+\titleformat{\subsection}
+  {\normalfont\bfseries\fontsize{13pt}{19.5pt}\selectfont}
+  {\thesubsection}
+  {1em}
+  {}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.5em}
+
+% ---------- Numbering ----------
+\numberwithin{equation}{chapter}
+\renewcommand{\thefigure}{\thechapter-\arabic{figure}}
+\renewcommand{\thetable}{\thechapter-\arabic{table}}
+\renewcommand{\theequation}{\thechapter-\arabic{equation}}
+\renewcommand{\figurename}{Figure}
+\renewcommand{\tablename}{Table}
+\renewcommand{\bibname}{References}
+\captionsetup{
+  font=normalsize,
+  labelfont=normalfont,
+  labelsep=space,
+  justification=centering
+}
+
+% ---------- Contents formatting ----------
+\renewcommand{\contentsname}{Contents}
+\renewcommand{\listfigurename}{List of Figures}
+\renewcommand{\listtablename}{List of Tables}
+\renewcommand{\cftchappresnum}{Chapter~}
+\renewcommand{\cftchapaftersnum}{\quad}
+\setlength{\cftchapnumwidth}{5.5em}
+\setlength{\cftsecnumwidth}{3em}
+\setlength{\cftsubsecnumwidth}{4em}
+\renewcommand{\cftfigpresnum}{Figure~}
+\renewcommand{\cfttabpresnum}{Table~}
+\setlength{\cftfignumwidth}{5.5em}
+\setlength{\cfttabnumwidth}{5.5em}
+\addto\captionsenglish{\renewcommand{\bibname}{References}}
+
+% ---------- Page style ----------
+\fancypagestyle{cityu}{
+  \fancyhf{}
+  \fancyhead[L]{\small City University of Macau \thesistype}
+  \fancyhead[R]{\small \thesisshorttitle}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\fancypagestyle{cityucover}{
+  \fancyhf{}
+  \fancyhead[L]{\small City University of Macau \thesistype}
+  \fancyhead[R]{\small \thesisshorttitle}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyhead[L]{\small City University of Macau \thesistype}
+  \fancyhead[R]{\small \thesisshorttitle}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\pagestyle{cityu}
+
+% ---------- Hyperlinks ----------
+\usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
+\usepackage[capitalize,noabbrev]{cleveref}
+
+\begin{document}
+
+\hypersetup{pageanchor=false}
+\pagenumbering{gobble}
+\input{Sections/cover.tex}
+\input{Sections/approval.tex}
+
+\clearpage
+\hypersetup{pageanchor=true}
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\input{Sections/declaration.tex}
+\input{Sections/acknowledgements.tex}
+\input{Sections/abstract.tex}
+\input{Sections/contents.tex}
+
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\input{Sections/chapter01_introduction.tex}
+\input{Sections/chapter02_framework.tex}
+\input{Sections/chapter03_algorithm_implementation.tex}
+\input{Sections/chapter04_innovative_method_1.tex}
+\input{Sections/chapter05_innovative_method_2.tex}
+\input{Sections/chapter06_experiments.tex}
+\input{Sections/chapter07_summary.tex}
+
+\input{Sections/references.tex}
+\input{Sections/resume.tex}
+\input{Sections/appendix.tex}
+
+\end{document}

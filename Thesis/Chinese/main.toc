@@ -1,0 +1,37 @@
+\acswitchoff 
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{論文/報告原創聲明}{I}{section*.1}%
+\contentsline {chapter}{致謝}{II}{section*.3}%
+\contentsline {chapter}{摘要}{III}{section*.5}%
+\contentsline {chapter}{Abstract}{IV}{section*.7}%
+\contentsline {chapter}{圖目錄}{VII}{section*.9}%
+\contentsline {chapter}{表目錄}{VIII}{section*.10}%
+\contentsline {chapter}{\numberline {一}緒論}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}研究背景及意義}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}選題背景}{1}{subsection.1.1.1}%
+\contentsline {chapter}{\numberline {二}基于統計學習的行人檢測框架}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}特征提取}{2}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}HOG 特征}{2}{subsection.2.1.1}%
+\contentsline {chapter}{\numberline {三}嵌入式系統的機器學習算法實現}{3}{chapter.3}%
+\contentsline {section}{\numberline {3.1}嵌入式平台介紹}{3}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}數學公式}{3}{subsection.3.1.1}%
+\contentsline {chapter}{\numberline {四}創新算法方法 1}{4}{chapter.4}%
+\contentsline {section}{\numberline {4.1}算法設計與實現}{4}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}算法介紹}{4}{subsection.4.1.1}%
+\contentsline {chapter}{\numberline {五}創新算法方法 2}{5}{chapter.5}%
+\contentsline {section}{\numberline {5.1}算法設計與實現}{5}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}算法介紹}{5}{subsection.5.1.1}%
+\contentsline {chapter}{\numberline {六}基于機器學習的快速行人檢測算法}{6}{chapter.6}%
+\contentsline {section}{\numberline {6.1}多通道特征提取}{6}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}梯度特征}{6}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}色彩特征}{6}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}特征計算算法}{6}{section.6.2}%
+\contentsline {section}{\numberline {6.3}基于多示例學習的行人檢測算法}{6}{section.6.3}%
+\contentsline {section}{\numberline {6.4}實驗結果與分析}{6}{section.6.4}%
+\contentsline {section}{\numberline {6.5}本章小結}{6}{section.6.5}%
+\contentsline {chapter}{\numberline {七}總結與展望}{7}{chapter.7}%
+\contentsline {section}{\numberline {7.1}總結}{7}{section.7.1}%
+\contentsline {section}{\numberline {7.2}展望}{7}{section.7.2}%
+\contentsline {chapter}{參考文獻}{8}{section*.13}%
+\contentsline {chapter}{作者簡歷}{9}{section*.16}%
+\contentsline {chapter}{附錄}{10}{section*.18}%

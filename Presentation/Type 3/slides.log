@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.4)  16 JAN 2025 11:54
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.13)  20 MAY 2026 22:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -714,7 +714,8 @@ LaTeX Warning: You have requested package `beamerouterthemeCityU',
                but the package provides `beamercolorthemeCityU'.
 
 Package: beamercolorthemeCityU 
-)) (./slides.aux)
+))
+No file slides.aux.
 \openout1 = `slides.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -727,7 +728,7 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 11.
- (c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+(c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 11.
@@ -777,9 +778,11 @@ LaTeX Font Info:    ... okay on input line 11.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 11.
-(./slides.out) (./slides.out)
 \@outlinefile=\write5
 \openout5 = `slides.out'.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
@@ -819,7 +822,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/lmr/m/it --> TU/lmr/b/it on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 11.
- (c:/texlive/2024/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+(c:/texlive/2024/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (c:/texlive/2024/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
@@ -891,28 +894,29 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/lmtt/b/n --> TU/lmtt/b/n on input line 11.
  (./slides.nav)
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
  [1
 
 ]
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
- (./slides.toc)
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
- [2
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
+
+No file slides.toc.
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
+[2
 
 ]
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
  [3
 
 ]
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
 LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -921,44 +925,44 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
  [4
 
 ]
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
  [5
 
 ]
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
  [6
 
 ]
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
  [7
 
 ]
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
 \openout4 = `slides.vrb'.
 
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
  (./slides.vrb)
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
  [8
 
 ]
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
-File: Theme/Logos/CUM.png Graphic file (type bmp)
-<Theme/Logos/CUM.png>
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
+File: Theme/Logos/CityU.png Graphic file (type bmp)
+<Theme/Logos/CityU.png>
  [9
 
 ]
@@ -976,16 +980,26 @@ File: Theme/Logos/CUM.png Graphic file (type bmp)
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `slides.out' has not changed.
-(rerunfilecheck)             Checksum: A977E0FC959DE1F37B8E542FB3C85C8C;479.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `slides.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `slides.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  A977E0FC959DE1F37B8E542FB3C85C8C;479.
  ) 
 Here is how much of TeX's memory you used:
- 29889 strings out of 474773
- 617316 string characters out of 5761290
+ 29856 strings out of 474773
+ 616545 string characters out of 5761289
  1975842 words of memory out of 5000000
- 51455 multiletter control sequences out of 15000+600000
+ 51430 multiletter control sequences out of 15000+600000
  563229 words of font info for 74 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,14n,123p,441b,1436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,14n,123p,441b,1435s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on slides.pdf (9 pages).

@@ -1,0 +1,153 @@
+%% CityU Macau Homework Template
+%% Author: Yuchen Shi
+%% GitHub:https://github.com/ycsek/CityU-Macau-Latex-Template
+
+%% Modified on the basis of ‘PKU course paper template’.
+%% Original author：Shawn Wang
+%% Overleaf：https://www.overleaf.com/latex/templates/bei-jing-da-xue-ke-cheng-lun-wen-mo-ban/yntmqcktrzfh
+
+%% Modified on the basis of ‘UCAS course paper template’.
+%% Original author：He Junwei
+%% Overleaf：https://www.overleaf.com/latex/templates/zhong-guo-ke-xue-yuan-da-xue-ke-cheng-lun-wen-mo-ban/nphpxhhqvnds
+
+%% Modified on the basis of ‘RUC course report template’.
+%% Original author：xxmy7
+%% License：Apache-2.0 license
+%% GitHub：https://github.com/xxmy7/RUC_Report_Latex_Template
+%% Overleaf：https://www.overleaf.com/latex/templates/ruc-report-latex-template/hhwhvvwczbnm
+
+
+
+\ProvidesPackage{CityUhomework}
+
+%% margin
+\RequirePackage[left=2.50cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry}
+
+%% some essential packages
+\RequirePackage[unicode=true,colorlinks,urlcolor=blue,linkcolor=blue,bookmarksnumbered=blue]{hyperref}
+\RequirePackage{latexsym,amssymb,amsmath,amsbsy,amsopn,amstext,amsthm,amsxtra,color,bm,calc,ifpdf}
+\RequirePackage{datetime}
+\RequirePackage{graphicx}
+\RequirePackage{enumerate}
+\RequirePackage{fancyhdr}
+\RequirePackage{listings}
+\RequirePackage{multirow}
+\RequirePackage{makeidx}
+\RequirePackage{xcolor}
+\RequirePackage{fontspec}
+\RequirePackage{subfigure}
+\PassOptionsToPackage{hyphens}{url}
+\RequirePackage{hyperref}
+\RequirePackage{pythonhighlight}
+\RequirePackage{orcidlink}
+
+\RequirePackage{tcolorbox}
+
+\RequirePackage{fontawesome}
+
+\RequirePackage{caption}
+%% Remove the colon in the icon title and change the separator to a space
+% or:
+% \captionsetup{labelformat=default,labelsep=space} %Remove colon
+\captionsetup[table]{labelsep=space} 
+\captionsetup[figure]{labelsep=space}  
+
+%% change the style of the word summary
+\renewcommand{\abstractname}{\textbf{\large {Abstract}}}
+
+%% fixable underline length
+\makeatletter
+\newcommand\dlmu[2][4cm]{\hskip1pt\underline{\hb@xt@ #1{\hss#2\hss}}\hskip3pt}
+\makeatother
+
+%% Modify some Chinese references of autoref
+\def\equationautorefname{式}
+\def\footnoteautorefname{脚注}
+\def\itemautorefname{项}
+\def\figureautorefname{图}
+\def\tableautorefname{表}
+\def\partautorefname{篇}
+\def\appendixautorefname{附录}
+\def\chapterautorefname{章}
+\def\sectionautorefname{节}
+\def\subsectionautorefname{小小节}
+\def\subsubsectionautorefname{subsubsection}
+\def\paragraphautorefname{段落}
+\def\subparagraphautorefname{子段落}
+\def\FancyVerbLineautorefname{行}
+\def\theoremautorefname{定理}
+
+\newtheorem{Theorem}{定理}[section]
+\newtheorem{Lemma}[Theorem]{引理}
+\newtheorem{Corollary}[Theorem]{推论}
+\newtheorem{Proposition}[Theorem]{命题}
+\newtheorem{Definition}[Theorem]{定义}
+\newtheorem{Example}[Theorem]{例}
+
+%% Reference Setting
+\newcommand{\reference}{
+    %\nocite{*}   %Turning on this option will list all references in bib
+    \bibliographystyle{IEEEtran} %Provides for the format of references
+    \begin{center}%centering
+        \bibliography{reference} %Calling up LaTeX to generate a list of references
+    \end{center}
+}
+
+%% Textbox Settings
+\newcommand{\tbox}[1]{
+    \begin{center}
+        \begin{tcolorbox}[colback=gray!10,%gray background
+                colframe=black,% black frame colour
+                width=8cm,% Use 8cm total width,
+                arc=1mm, auto outer arc,
+                boxrule=0.5pt,
+            ]
+            {#1}
+        \end{tcolorbox}
+    \end{center}
+}
+
+%% Header Settings
+\pagestyle{fancy}
+\fancyhead[L]{}% Left header, leave it blank or it won't show
+\fancyhead[C]{}% Centre header, leave it blank or it won't show
+\fancyhead[R]{}% Right hand side header, leave it blank or it won't show
+
+% %% Catlog Settings
+% \renewcommand{\contentsname}{\textbf{\large {Contents}}}
+
+% %% Reference Settings
+% \renewcommand{\refname}{\textbf{\large {References}}}
+
+%% Cover Settings
+\title{
+    \vspace{2.0cm}
+    \Huge \textbf{{Title | XXXX}} \par
+    \vspace{1cm}
+    \Large {\underline{XXXX}}
+    \vspace{2cm} }
+
+\author{
+    \vspace{0.5cm}
+    \Large   Faculty\ \dlmu[9cm]{XXX} \qquad \\
+    \vspace{0.5cm}
+    \Large Major\ \dlmu[9cm]{XXX} \qquad \\
+    \vspace{0.5cm}
+    \Large Name\ \dlmu[9cm]{XXX} \qquad \\
+    \vspace{0.5cm}
+    \Large  Student ID\ \dlmu[9cm]{XXX}  \qquad  \\
+    \vspace{0.5cm}
+    \date {\today}  \\
+}
+
+%% Changeable  logo
+\newcommand{\cover}{
+    %% School name logo on the front cover, images are in the figures folder
+    \begin{figure}
+        \centering
+        \vspace{2cm}
+        \includegraphics[width=0.80\textwidth]{figures/CityU_logo.pdf}
+    \end{figure}
+
+    \maketitle
+}

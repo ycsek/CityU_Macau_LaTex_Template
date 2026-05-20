@@ -1,0 +1,50 @@
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{center}
+  \vspace*{0.8cm}
+
+  \includegraphics[width=0.55\textwidth]{FIG/CityU_logo.png}
+
+  \vspace{1.3cm}
+
+  {\fontsize{18pt}{27pt}\selectfont \thesisprogramzh\par}
+
+  \vspace{1.0cm}
+
+  {\fontsize{18pt}{27pt}\selectfont \thesistypezh\par}
+
+  \vspace{1.2cm}
+
+  {\fontsize{18pt}{27pt}\selectfont \thesistitlezh\par}
+
+  \vspace{0.4cm}
+
+  {\fontsize{16pt}{24pt}\selectfont \thesistitleen\par}
+
+  \vspace{1.5cm}
+
+  \renewcommand{\arraystretch}{1.2}
+  \newcommand{\coverfield}[1]{%
+    \begin{tabular}[t]{@{}l@{}}
+      \makebox[7.8cm][l]{#1}\\[-0.75ex]
+      \rule{7.8cm}{0.4pt}
+    \end{tabular}%
+  }
+  \begin{tabular}{@{}p{4.5cm}p{8.5cm}@{}}
+    姓\quad 名 Name & ：\coverfield{\studentname} \\
+    學\quad 號 Student No. & ：\coverfield{\studentnumber} \\
+    院\quad 系 Faculty & ：\coverfield{\facultyname} \\
+    課\quad 程 Program & ：\coverfield{\thesisprogramzh} \\
+    指導教師 Supervisor & ：\coverfield{\supervisorname} \\
+    電\quad 郵 Email & ：\coverfield{\studentemail} \\
+  \end{tabular}
+
+  \vfill
+
+  {\fontsize{12pt}{18pt}\selectfont \submissiondate\par}
+
+  \vspace{0.4cm}
+
+  {\fontsize{12pt}{18pt}\selectfont [個人形式] (此行僅標識)\par}
+\end{center}
+\end{titlepage}

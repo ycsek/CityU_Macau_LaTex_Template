@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.4)  15 OCT 2024 19:39
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.13)  20 MAY 2026 22:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -887,15 +887,22 @@ File: figures/cityu.pdf Graphic file (type pdf)
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8862D22756EFC79671506DDAAFEC656C;387.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 20E6665ED8A79F2F4F811B19A83F8DCC;391
+(rerunfilecheck)             After:  8862D22756EFC79671506DDAAFEC656C;387.
  ) 
 Here is how much of TeX's memory you used:
- 26530 strings out of 474773
- 573376 string characters out of 5761290
+ 26515 strings out of 474773
+ 572406 string characters out of 5761289
  1933842 words of memory out of 5000000
- 48178 multiletter control sequences out of 15000+600000
- 559091 words of font info for 52 fonts, out of 8000000 for 9000
+ 48164 multiletter control sequences out of 15000+600000
+ 559083 words of font info for 51 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,16n,123p,440b,615s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
