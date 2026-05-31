@@ -1,6 +1,7 @@
 <h1 align="center">
   <img alt="City University of Macau" src="figures/CityU_logo.png" width="560">
 </h1>
+
 # City University of Macau $\LaTeX$ Templates
 
 A collection of  $\LaTeX$ templates for coursework, presentations, and theses at City University of Macau. Each template is self-contained and includes a sample PDF for previewing the layout before editing.
